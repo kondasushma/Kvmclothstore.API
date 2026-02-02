@@ -2,8 +2,8 @@
 {
     public class Category
     {
-        public int ID { get; set; }
-        public String Name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
         public ICollection<Product>? Products { get; set; }
     }
 }
